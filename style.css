@@ -1,0 +1,53 @@
+h1 {
+    color : '#010101'
+ }
+ 
+ .header * {
+         
+    text-align: center;
+     border:solid;
+  }
+
+  .footer{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 100;
+    padding : 50;
+    padding-top: 50;
+    justify-content: space-evenly;
+  }
+
+  p{
+     text-align: center;
+     color:#001cff;
+  }
+
+
+  a:link{
+     color:rgb(147, 218, 32);
+  }
+
+  a:visited{
+     color:rgb(147, 0, 143);
+  }
+
+  .Project{
+     position : relative;
+     bottom: 50%;
+  }
+
+  .Project p{
+     position : absolute;
+     top: 50%;
+     left: 50%;
+     transform : translate(-50%, -50%);
+     opacity : 0;
+  }
+
+  .Project:hover p{
+     opacity : 1;
+    }
+
+  .Project:hover img{
+     opacity : 0.33;
+     }
